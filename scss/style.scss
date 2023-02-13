@@ -1,0 +1,106 @@
+@import "variables";
+
+$color_1: #0ba6ff;
+$color_2: #e53935;
+$color_3: black;
+$color_4: red;
+$font-family_1: 'Ubuntu', sans-serif;
+$background-color_1: white;
+$background-color_2: #3498db;
+$background-color_3: #aed6f1;
+
+body {
+	font-family: $font-family_1;
+	background-color: $background-color_1;
+}
+ul {
+	li {
+		a {
+			margin: 10px;
+			transition: all 0.3s ease;
+			&:hover {
+				color: $color_1 !important;
+			}
+		}
+	}
+}
+.b-example-divider {
+	height: 48px;
+}
+h1 {
+	text-align: center;
+	color: $color_2;
+}
+h2 {
+	text-align: center;
+}
+hero {
+	width: 100%;
+	height: calc(100vh - 10rem);
+	position: relative;
+}
+.logo {
+	width: 100px;
+}
+section {
+	ul {
+		border: 1px black solid;
+		border-radius: 3px;
+		height: auto;
+		width: fit-content;
+		padding: 30px;
+		font-size: larger;
+		font-weight: bolder;
+		list-style-type: none;
+	}
+}
+.row {
+	display: flex;
+	text-align: center;
+}
+.directivos {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.informacionCursos {
+	text-align: center;
+	font-size: 30px;
+}
+.cursos {
+	border: black solid 2px;
+	text-align: center;
+	margin: 10px;
+	padding: 10px;
+	text-decoration: none;
+	background-color: $background-color_2;
+	border-radius: 5px;
+	color: $color_3;
+	font-size: 20px;
+	transition: all 0.3s ease;
+	width: 120px;
+	&:hover {
+		background-color: $background-color_3;
+	}
+}
+.carousel-item {
+	img {
+		width: auto;
+		height: 450px;
+		max-height: 450px;
+	}
+}
+footer {
+	border-top: 1px solid black;
+	text-align: center;
+	padding: 20px;
+	ul {
+		li {
+			list-style-type: none;
+			a {
+				color: $color_4;
+				text-decoration: none;
+			}
+		}
+	}
+}
