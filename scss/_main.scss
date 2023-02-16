@@ -1,18 +1,16 @@
-h1 {
+/* h1 {
 	text-align: center;
 	color: $color_principal;
 }
 h2 {
 	text-align: center;
-}
+
 .hero {
 	width: 100%;
 	height: calc(100vh - 10rem);
 	position: relative;
-}
-.logo {
-	width: 100px;
-}
+} */
+
 section {
 	ul {
 		border: 1px black solid;
@@ -29,7 +27,7 @@ section {
 	display: flex;
 	text-align: center;
 }
-.directivos {
+.imagenNivel {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -62,5 +60,4 @@ section {
 	}
 }
 
-.img-fluid {
-    height: calc(100vh - 10%)}
+

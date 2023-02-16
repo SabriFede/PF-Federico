@@ -6,25 +6,22 @@ ul li a:hover {
   color: #0ba6ff !important;
 }
 
-h1 {
-  text-align: center;
-  color: red;
-}
-
-h2 {
-  text-align: center;
-}
-
-.hero {
-  width: 100%;
-  height: calc(100vh - 10rem);
-  position: relative;
-}
-
 .logo {
   width: 100px;
 }
 
+/* h1 {
+	text-align: center;
+	color: $color_principal;
+}
+h2 {
+	text-align: center;
+
+.hero {
+	width: 100%;
+	height: calc(100vh - 10rem);
+	position: relative;
+} */
 section ul {
   border: 1px black solid;
   border-radius: 3px;
@@ -41,7 +38,7 @@ section ul {
   text-align: center;
 }
 
-.directivos {
+.imagenNivel {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -73,10 +70,6 @@ section ul {
   width: auto;
   height: 450px;
   max-height: 450px;
-}
-
-.img-fluid {
-  height: calc(100vh - 10%);
 }
 
 footer {
