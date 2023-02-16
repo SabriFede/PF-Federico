@@ -1,0 +1,15 @@
+body {
+	font-family: $font-family_1;
+	background-color: $background-color_1;
+}
+ul {
+	li {
+		a {
+			margin: 10px;
+			transition: all 0.3s ease;
+			&:hover {
+				color: $color_1 !important;
+			}
+		}
+	}
+}

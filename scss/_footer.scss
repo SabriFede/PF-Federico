@@ -1,0 +1,14 @@
+footer {
+	border-top: 1px solid black;
+	text-align: center;
+	padding: 20px;
+	ul {
+		li {
+			list-style-type: none;
+			a {
+				color: $color_principal;
+				text-decoration: none;
+			}
+		}
+	}
+}
