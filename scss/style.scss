@@ -1,5 +1,13 @@
 @import "variables";
+@import "header";
+@import "main";
+@import "footer";
 
+
+body {
+	font-family: $font-family_1;
+	background-color: $background-color_1;
+}
 
 .b-example-divider {
 	height: 48px;
