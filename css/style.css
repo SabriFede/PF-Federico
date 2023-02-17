@@ -39,17 +39,21 @@ section ul {
   font-size: 30px;
 }
 
-.cursos {
-  display: flex;
-  flex-direction: column;
-  width: max-content;
-  justify-items: center;
-}
-
 .carousel-item img {
-  width: auto;
+  width: 100%;
   height: 450px;
   max-height: 450px;
+}
+
+.parrafo {
+  font-size: 20px;
+  margin: 40px;
+  text-align: justify;
+  background-color: #8ccbf5;
+}
+
+.contacto {
+  color: red;
 }
 
 footer {
