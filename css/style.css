@@ -22,7 +22,7 @@ header .logo {
   height: auto;
 }
 
-section ul {
+main section ul {
   border: 1px black solid;
   border-radius: 3px;
   height: auto;
@@ -32,52 +32,38 @@ section ul {
   font-weight: bolder;
   list-style-type: none;
 }
-
-.row {
+main section .row {
   display: flex;
   text-align: center;
 }
-
-.informacionCursos {
+main .informacionCursos {
   text-align: center;
   font-size: 30px;
 }
-
-.padre-carousel {
-  width: 90%;
-}
-
-.carousel-item img {
+main .padre-carousel {
   width: 100%;
-  height: 450px;
-  max-height: 450px;
 }
-
-.parrafo {
+main .parrafo {
   font-size: 20px;
   margin: 30px;
   text-align: justify;
   background-color: #abd9f8;
 }
-
-.contacto {
+main .contacto {
   color: red;
   text-transform: uppercase;
   font-size: 25px;
 }
-
-.form-control {
+main .form-control {
   width: 60%;
   margin: auto;
   display: block;
 }
-
-.form-label {
+main .form-label {
   font-size: 20px;
   font-weight: 200;
 }
-
-.linkTel {
+main .linkTel {
   color: black;
 }
 
@@ -92,9 +78,6 @@ footer {
   list-style-type: none;
 }
 
-/* border-top: 1px solid black;
-text-align: center;
-padding: 20px; */
 ul li {
   list-style-type: none;
 }
